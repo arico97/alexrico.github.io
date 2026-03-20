@@ -1,565 +1,679 @@
 <!DOCTYPE html>
 <html lang="en">
- 
-
 <head>
-    <title>Alex Rico Rodríguez Portfolio</title>
+    <title>Alex Rico Rodríguez — Data Scientist</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="sty.css">
-    <style> 
-       /* Estilos para el header */
-
-   
-    </style>
 </head>
-
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experience">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                 <!--
-                <ul class="navbar-nav ml-auto language-switcher">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index_chat_person.html" data-lang="en">English</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index_chat_espanol.html" data-lang="es">Español</a>
-                    </li>
-                </ul>
-            -->
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">English</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index_español.html">Español</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section id="about" class="section-about">
-            <div class="container">
-                <h2 class="section-title">About me</h2>
-                <div class="row">
-                    <div class="col-md-3">
-                        <!-- <img src="https://via.placeholder.com/150x150" alt="Foto de perfil" class="img-fluid rounded-circle"> -->
-                        <img src="profile photo/retoque.jpeg" alt="Foto de perfil" class="img-fluid rounded-circle">
-                        
-                    </div>
-                    <div class="col-md-9">
-                        <p>Hello! Glad to see you here. My name is Alex, and I am a Data Scientist! This is a collection of my personal projects made during my free time.</p>
-                    </div>
-                        </div>
-                </div>
-            </div>
-        </section>
 
-        <section id="testimonials" class="section-testimonials">
-            <div class="container">
-                <h2 class="section-title"> Testimonials</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card">
-                            <img src="./testimonials/Clustering.PNG" alt="Foto de perfil" style="width: 100%; height: auto;" class="img-fluid">  
-                        </div>
+<!-- CURSOR -->
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
 
+<!-- NAV -->
+<nav id="navbar">
+    <a href="#" class="nav-logo">AR<span>.</span></a>
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-lang">
+        <a href="./index.html" class="active">EN</a>
+        <span>/</span>
+        <a href="./index_español.html">ES</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+    </button>
+</nav>
 
-                        <div class="card">
-                            <img src="./testimonials/Testimonial_3.PNG" alt="Foto de perfil" style="width: 100%; height: auto;" class="img-fluid">  
-                        </div>
-
-                        <div class="card">
-                            <img src="./testimonials/Voicegain.PNG" alt="Foto de perfil" style="width: 100%; height: auto;" class="img-fluid">  
-                        </div>
-                    </div>
-                    
-                
-                </div>
-            </div>
-        </section>
-    
-        <section id="experience" class="section-experience">
-            <div class="container">
-                <h2 class="section-title">Experience</h2>
-        
-                <!-- Machine Learning and AI Development -->
-                <div class="row">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Machine Learning and AI Development</h3>
-                            <h4 class="card-subtitle mb-2 text-muted">Key Skills and Achievements</h4>
-                            <ul>
-                                <li><strong>Neural Networks:</strong> Designed and optimized CNNs, LSTMs, and Fully Connected Networks for image recognition, sequential data analysis, and forecasting.</li>
-                                <li><strong>Natural Language Processing:</strong> Built NER models, BERT-based systems, and sentiment analysis pipelines with HuggingFace, SpaCy, and NLTK.</li>
-                                <li><strong>Generative AI:</strong> Implemented LLMs for text generation, user categorization, and chatbot functionality using advanced transformer architectures.</li>
-                                <li><strong>Evaluation:</strong> Applied cross-validation, confusion matrices, and F1 scoring for model robustness and performance evaluation.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Data Science and Analytics -->
-                <div class="row">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Data Science and Analytics</h3>
-                            <h4 class="card-subtitle mb-2 text-muted">Key Contributions</h4>
-                            <ul>
-                                <li><strong>Predictive Modeling:</strong> Developed regression and classification models, including Random Forest, SVMs, and Gradient Boosting algorithms.</li>
-                                <li><strong>Time Series Analysis:</strong> Built ARIMA, SARIMA, and LSTM models for time series forecasting and trend analysis.</li>
-                                <li><strong>Clustering:</strong> Applied K-means, DBSCAN, and hierarchical methods for segmentation and pattern discovery.</li>
-                                <li><strong>Data Visualization:</strong> Created interactive dashboards with Tableau, Power BI, and matplotlib for insights delivery.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Software Development and Automation -->
-                <div class="row">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Software Development and Automation</h3>
-                            <h4 class="card-subtitle mb-2 text-muted">Technologies and Tools</h4>
-                            <ul>
-                                <li><strong>Backend Development:</strong> Built APIs with FastAPI, Django, and Flask, integrating ML models for real-time predictions.</li>
-                                <li><strong>DevOps:</strong> Automated deployment pipelines using Docker and Kubernetes, with solutions deployed on AWS and GCP.</li>
-                                <li><strong>ETL Pipelines:</strong> Designed data pipelines for large-scale data processing, utilizing Apache Airflow for orchestration.</li>
-                                <li><strong>Database Management:</strong> Optimized SQL queries, handled BigQuery databases, and streamlined data integration from various sources.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Research and Innovation -->
-                <div class="row">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Research and Innovation</h3>
-                            <h4 class="card-subtitle mb-2 text-muted">Academic and Applied Research</h4>
-                            <ul>
-                                <li><strong>AI Research:</strong> Investigated transformer models, attention mechanisms, and techniques for model interpretability.</li>
-                                <li><strong>Publications:</strong> Contributed to studies on AI-driven predictions for public health and environmental analysis.</li>
-                                <li><strong>Prototyping:</strong> Developed proofs-of-concept for AI systems, demonstrating feasibility and business value.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Cloud and Infrastructure -->
-                <div class="row">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Cloud and Infrastructure</h3>
-                            <h4 class="card-subtitle mb-2 text-muted">Platforms and Operations</h4>
-                            <ul>
-                                <li><strong>Cloud Platforms:</strong> Expertise in AWS (S3, Lambda) and GCP (Vertex AI, BigQuery) for scalable solutions.</li>
-                                <li><strong>Monitoring:</strong> Set up performance monitoring and logging systems with tools like Airflow and Prometheus.</li>
-                                <li><strong>Security:</strong> Ensured compliance with GDPR and implemented data encryption for secure operations.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Personal Projects -->
-                <div class="row">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Personal Projects</h3>
-                            <h4 class="card-subtitle mb-2 text-muted">Highlights</h4>
-                            <ul>
-                                <li><strong>Stock Market Analysis:</strong> Built ARIMA and LSTM models for stock price prediction using time series techniques.</li>
-                                <li><strong>Portfolio Website:</strong> Developed a responsive portfolio website using HTML, CSS, and JavaScript, hosted on GitHub Pages.</li>
-                                <li><strong>NLP Applications:</strong> Created sentiment analysis tools and recommendation engines with advanced NLP techniques.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        
-        
-        <section id="projects" class="section-projects">
-            <div class="container">
-                <h2 class="section-title" data-translate="projects"></h2>
-                <h2>Projects</h2>
-                <p>Click on APP to play with the Apps that I've developed. Click on GitHub to check its corresponding code. Click on Notebook to see an explanatory Jupyter Notebook of the project.</p>
-                
-                <!-- Primera fila de proyectos -->
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./projects/photo/football_forecasting.jpg" alt="Football forecasting" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">Football Forecasting</h3>
-                                <p class="card-text">This project utilizes historical football match data to predict future match outcomes, employing machine learning techniques for sports betting analysis.</p>
-                                <a href="https://github.com/arico97/casino" class="btn btn-primary">GitHub Code</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./projects/photo/anomaly_detection.jpg" alt="Anomaly detection" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">Anomaly Detection</h3>
-                                <p class="card-text">An AutoML-based project designed to identify anomalies within datasets, streamlining the detection process without extensive manual intervention.</p>
-                                <a href="https://github.com/arico97/anomaly_detection" class="btn btn-primary">GitHub Code</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./projects/photo/rag_chatbot.jpg" alt="RAG-based Chatbot" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">RAG-based Chatbot</h3>
-                                <p class="card-text">This application employs Retrieval-Augmented Generation (RAG) to create a chatbot capable of summarizing information from various sources, including PDFs, ePubs, web pages, and YouTube videos.</p>
-                                <a href="https://github.com/arico97/RAG_summarizer" class="btn btn-primary">GitHub Code</a>
-                                <a href="https://huggingface.co/spaces/arico777/RAG_pdf" class="btn btn-primary">App</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./projects/photo/obesity.jpg" alt="Proyecto 6" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">Overweight classification</h3>
-                                <p class="card-text">Using some special features, we can forecast whether the patient is Overweight or not.</p>
-                                <a href="./projects/uci_ow.html" class="btn btn-primary">Notebook</a>
-                                <a href="https://overwuci-e6rcalecxy5s59a8spqqv5.streamlit.app/" class="btn btn-primary">APP</a>
-                                <a href="https://github.com/arico97/overw_uci" class="btn btn-primary">GitHub code</a>
-                                <a href="https://youtu.be/a_OVtQLZcI8?si=lf-8d8aB-Sa2OjYa" class="btn btn-primary">YouTube</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./projects/photo/stock-prediction.png" alt="Stock prediction" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">Time series forecasting</h3>
-                                <p class="card-text">Showskill of the different time series analysis methods and forecasting models.</p>
-                                <a href="./projects/Time series forecasting.html" class="btn btn-primary">Notebook</a>
-                                <a href="https://huggingface.co/spaces/arico777/automl_trading_forecasting" class="btn btn-primary">APP</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./projects/photo/news_api.png" alt="Real time news" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">Real time news NLP analysis</h3>
-                                <p class="card-text">NLP analysis of real time news using clustering techniques and an LLM to name the clusters.</p>
-                                <a href="https://huggingface.co/spaces/arico777/news-api" class="btn btn-primary">APP</a>
-                                <a href="https://github.com/arico97/alexrico.github.io/blob/main/projects/Real_time_news_analysis_classification.ipynb" class="btn btn-primary">Notebook</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Segunda fila de proyectos -->
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./projects/photo/movie_recommender_app.PNG" alt="Movie Recommender App" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">Movie Recommender App</h3>
-                                <p class="card-text">Since it is a streamlit app, contact with me for running the app if it is not working.</p>
-                                <a href="https://appmovierecommender-anpzk4sustwafamcjipkzx.streamlit.app/" class="btn btn-primary">APP</a>
-                                <a href="https://github.com/arico97/streamlit_movie_recommender" class="btn btn-primary">GitHub</a>
-                                <a href="./projects/Recommenders.html" class="btn btn-primary">Notebook</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./projects/photo/movie-reviews.png" alt="Sentiment analysis" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">Sentiment analysis on movie reviews</h3>
-                                <p class="card-text">A very basic NLP technique showskill.</p>
-                                <a href="./projects/nlp.html" class="btn btn-primary">Notebook</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./projects/photo/survival-analysis.png" alt="Survival analysis" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">Survival analysis</h3>
-                                <p class="card-text">How to make a very simple survival analysis project.</p>
-                                <a href="./projects/Survival analysis.html" class="btn btn-primary">Notebook</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Tercera fila de proyectos -->
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./projects/photo/clusters.png" alt="Clustering" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">Clustering project</h3>
-                                <p class="card-text">Using PCA, clustering techniques and metrics like the elbow method and silhouette score.</p>
-                                <a href="./projects/clustering-notebook_v2.html" class="btn btn-primary">Notebook</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./projects/photo/titanic.jpg" alt="Titanic" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">Titanic predictions</h3>
-                                <p class="card-text">Showskill of data analysis and ML methods for classification tasks, with Titanic dataset.</p>
-                                <a href="./projects/Titanic1.html" class="btn btn-primary">Notebook</a>
-                                <a href="https://github.com/arico97/titanic_api" class="btn btn-primary">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./projects/photo/house-prices.png" alt="House prices" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">House pricing</h3>
-                                <p class="card-text">Showskill of ML methods for a regression task using house pricing dataset.</p>
-                                <a href="./projects/House pricing.html" class="btn btn-primary">Notebook</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Cuarta fila de proyectos -->
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="https://via.placeholder.com/300x200" alt="Computer Vision" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">Computer vision project</h3>
-                                <p class="card-text">A basic image recognition project using vowel combinations with different accents.</p>
-                                <a href="./projects/image-recognition.html" class="btn btn-primary">Notebook</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./projects/photo/GIS.png" alt="GIS analysis" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">GIS analysis</h3>
-                                <p class="card-text">How to use open-source GIS libraries in Python.</p>
-                                <a href="./projects/GIS.html" class="btn btn-primary">Notebook</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="./projects/photo/data_visualisation_app.PNG" alt="Data Visualisation App" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">Data Visualisation App</h3>
-                                <p class="card-text">Since it is a streamlit app, contact me for running the app if it is not working.</p>
-                                <a href="https://appdatavisualisation-zbxpv4y6yqnc8smmheufpy.streamlit.app/" class="btn btn-primary">APP</a>
-                                <a href="https://github.com/arico97/streamlit_data_visualisation" class="btn btn-primary">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="education" class="py-5">
-            <div class="container">
-                <h2 class="text-center mb-4">Education</h2>
-        
-                <div class="row">
-                    <!-- Master's Degree -->
-                    <div class="col-md-6">
-                        <div class="card bg-light mb-4 shadow-lg">
-                            <div class="card-body">
-                                <h4 class="card-title">Master of Modelling for Engineering and Science</h4>
-                                <h5 class="card-subtitle mb-2 text-muted">Autonomous University of Barcelona</h5>
-                                <p class="card-text">
-                                    Advanced knowledge in Machine Learning, Big Data, and Optimization Techniques.
-                                </p>
-                                <ul>
-                                    <li>Classical ML algorithms (Regression, Classification)</li>
-                                    <li>Big Data processing with Spark and SQL</li>
-                                    <li>Deep Learning for Image Recognition</li>
-                                    <li>Optimization and Parallel Programming</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <!-- Bachelor's Degree -->
-                    <div class="col-md-6">
-                        <div class="card bg-light mb-4 shadow-lg">
-                            <div class="card-body">
-                                <h4 class="card-title">Bachelor’s Degree in Mathematics</h4>
-                                <h5 class="card-subtitle mb-2 text-muted">Autonomous University of Barcelona</h5>
-                                <p class="card-text">
-                                    A strong foundation in mathematical principles applied to machine learning.
-                                </p>
-                                <ul>
-                                    <li>Numerical Methods, Probability, and Statistics</li>
-                                    <li>Linear Algebra and High-Dimensional Data</li>
-                                    <li>Developed AI algorithms for games (Space Invaders, Connect-4)</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        
-        <section id="skills" class="py-5 bg-dark text-white">
-            <div class="container">
-                <h2 class="text-center mb-4">Skills</h2>
-        
-                <!-- Skills Overview -->
-                <div class="row">
-                    <!-- Technical Skills -->
-                    <div class="col-md-6">
-                        <div class="card bg-secondary text-white mb-4 shadow-lg">
-                            <div class="card-body">
-                                <h4 class="card-title">Technical Skills</h4>
-                                <p class="card-text">
-                                    Expertise in <strong>Python</strong>, <strong>R</strong>, <strong>Java</strong>, 
-                                    <strong>Bash</strong>, <strong>SQL</strong>, <strong>Docker</strong>, and more.
-                                </p>
-                                <ul>
-                                    <li>Machine Learning (Neural Networks, NLP, Clustering)</li>
-                                    <li>ETL, MLOps, Pipeline Optimization</li>
-                                    <li>Generative AI and LLMs</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <!-- ML Libraries -->
-                    <div class="col-md-6">
-                        <div class="card bg-secondary text-white mb-4 shadow-lg">
-                            <div class="card-body">
-                                <h4 class="card-title">ML Libraries & Frameworks</h4>
-                                <p class="card-text">
-                                    Mastery of modern ML frameworks like <strong>TensorFlow</strong>, 
-                                    <strong>Keras</strong>, <strong>PyTorch</strong>, and <strong>scikit-learn</strong>.
-                                </p>
-                                <ul>
-                                    <li>HuggingFace, Transformers, SpaCy</li>
-                                    <li>Pandas, NumPy, Seaborn, matplotlib</li>
-                                    <li>Streamlit, FastAPI, BeautifulSoup</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Soft Skills -->
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card bg-secondary text-white mb-4 shadow-lg">
-                            <div class="card-body">
-                                <h4 class="card-title">Soft Skills</h4>
-                                <ul>
-                                    <li>Critical Thinking & Problem-Solving</li>
-                                    <li>Time Management & Storytelling</li>
-                                    <li>High Creativity & Abstraction</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <!-- Certifications & Languages -->
-                    <div class="col-md-6">
-                        <div class="card bg-secondary text-white mb-4 shadow-lg">
-                            <div class="card-body">
-                                <h4 class="card-title">Certifications & Languages</h4>
-                                <p class="card-text">
-                                    <strong>AWS ML Engineer Associate</strong>
-                                </p>
-                                <ul>
-                                    <li>Advanced English</li>
-                                    <li>Native Spanish and Catalan</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        
-        
-        <section id="contact" class="section-contact">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <div class="container">
-                <h2 class="section-title">Contact me</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <ul>
-                            Social media: <a class="fa fa-youtube-square" style="font-size:24px" href="https://www.youtube.com/channel/UC66L8VoX-xbpcBgLt-mIUvA"></a>  <a class="fa fa-linkedin-square" style="font-size:24px" href="https://www.linkedin.com/in/alex-rico-rodr%C3%ADguez-a04075160/"></a> <a class="fa fa-instagram" style="font-size:24px" href="https://www.instagram.com/dataandrico/"></a><a class="fa fa-tiktok" style="font-size:24px" href="https://www.tiktok.com/@data.and.rico?_t=8nGuprMybKK&_r=1"></a>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="bg-light py-3">
-        <div class="container">
-            <p class="text-center">Copyright ©2024 Alex Rico</p>
+<!-- HERO -->
+<section id="hero">
+    <div class="hero-bg">
+        <div class="grid-overlay"></div>
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+    <div class="hero-content">
+        <div class="hero-tag">
+            <span class="dot"></span> Available for work
         </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
-    <script>
-        $('.language-switcher a').click(function(e){
-            e.preventDefault();
-            $('html').attr('lang', $(this).data('lang'));
-        });
-    </script>
+        <h1 class="hero-title">
+            <span class="line">Alex Rico</span>
+            <span class="line accent">Rodríguez</span>
+        </h1>
+        <p class="hero-sub">Data Scientist &amp; AI Engineer</p>
+        <p class="hero-desc">Building intelligent systems at the intersection of mathematics, machine learning, and real-world impact.</p>
+        <div class="hero-cta">
+            <a href="#projects" class="btn-primary">View Projects</a>
+            <a href="#contact" class="btn-ghost">Get in touch</a>
+        </div>
+    </div>
+    <div class="hero-image">
+        <div class="img-frame">
+            <img src="profile photo/retoque.jpeg" alt="Alex Rico Rodríguez">
+            <div class="img-badge">
+                <i class="fas fa-award"></i>
+                <span>AWS ML<br>Certified</span>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">01 / About</span>
+            <h2>Who I am</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-text">
+                <p class="about-lead">Hello! Glad to see you here. My name is Alex, and I am a Data Scientist — this is a curated collection of personal projects made during my free time.</p>
+                <p>I combine a strong mathematical foundation with hands-on engineering skills to deliver AI systems that actually work in production. From NLP pipelines to time series forecasting, I love turning data into decisions.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Projects Built</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Languages</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-tags">
+                <div class="tag-cloud">
+                    <span class="tag">Python</span>
+                    <span class="tag highlight">Machine Learning</span>
+                    <span class="tag">PyTorch</span>
+                    <span class="tag highlight">NLP</span>
+                    <span class="tag">TensorFlow</span>
+                    <span class="tag">LLMs</span>
+                    <span class="tag highlight">AWS</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">FastAPI</span>
+                    <span class="tag highlight">Generative AI</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">GCP</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">02 / Social Proof</span>
+            <h2>Testimonials</h2>
+        </div>
+        <div class="testimonials-scroll">
+            <div class="testimonial-card">
+                <img src="./testimonials/Clustering.PNG" alt="Testimonial 1">
+            </div>
+            <div class="testimonial-card">
+                <img src="./testimonials/Testimonial_3.PNG" alt="Testimonial 2">
+            </div>
+            <div class="testimonial-card">
+                <img src="./testimonials/Voicegain.PNG" alt="Voicegain Testimonial">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">03 / Experience</span>
+            <h2>What I do</h2>
+        </div>
+        <div class="experience-grid">
+
+            <div class="exp-card" data-index="01">
+                <div class="exp-icon"><i class="fas fa-brain"></i></div>
+                <h3>ML &amp; AI Development</h3>
+                <ul>
+                    <li>CNNs, LSTMs &amp; Fully Connected Networks for image recognition and forecasting</li>
+                    <li>NER models, BERT-based systems &amp; sentiment analysis with HuggingFace, SpaCy, NLTK</li>
+                    <li>LLMs for text generation, user categorisation &amp; chatbot functionality</li>
+                    <li>Cross-validation, confusion matrices &amp; F1 scoring for model evaluation</li>
+                </ul>
+            </div>
+
+            <div class="exp-card" data-index="02">
+                <div class="exp-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Data Science &amp; Analytics</h3>
+                <ul>
+                    <li>Random Forest, SVMs, Gradient Boosting for regression &amp; classification</li>
+                    <li>ARIMA, SARIMA &amp; LSTM models for time series forecasting</li>
+                    <li>K-means, DBSCAN &amp; hierarchical clustering for segmentation</li>
+                    <li>Interactive dashboards with Tableau, Power BI &amp; matplotlib</li>
+                </ul>
+            </div>
+
+            <div class="exp-card" data-index="03">
+                <div class="exp-icon"><i class="fas fa-code"></i></div>
+                <h3>Software &amp; Automation</h3>
+                <ul>
+                    <li>APIs with FastAPI, Django &amp; Flask integrating ML models for real-time predictions</li>
+                    <li>Docker &amp; Kubernetes deployment pipelines on AWS and GCP</li>
+                    <li>ETL pipelines with Apache Airflow for large-scale data processing</li>
+                    <li>SQL optimisation, BigQuery &amp; multi-source data integration</li>
+                </ul>
+            </div>
+
+            <div class="exp-card" data-index="04">
+                <div class="exp-icon"><i class="fas fa-flask"></i></div>
+                <h3>Research &amp; Innovation</h3>
+                <ul>
+                    <li>Transformer models, attention mechanisms &amp; model interpretability</li>
+                    <li>Publications on AI-driven predictions for public health &amp; environment</li>
+                    <li>Proofs-of-concept demonstrating feasibility and business value</li>
+                </ul>
+            </div>
+
+            <div class="exp-card" data-index="05">
+                <div class="exp-icon"><i class="fas fa-cloud"></i></div>
+                <h3>Cloud &amp; Infrastructure</h3>
+                <ul>
+                    <li>AWS (S3, Lambda) &amp; GCP (Vertex AI, BigQuery) at scale</li>
+                    <li>Performance monitoring &amp; logging with Airflow and Prometheus</li>
+                    <li>GDPR compliance &amp; data encryption for secure operations</li>
+                </ul>
+            </div>
+
+            <div class="exp-card highlight-card" data-index="06">
+                <div class="exp-icon"><i class="fas fa-rocket"></i></div>
+                <h3>Personal Projects</h3>
+                <ul>
+                    <li>ARIMA &amp; LSTM models for stock price prediction</li>
+                    <li>Responsive portfolio website on GitHub Pages</li>
+                    <li>Sentiment analysis tools &amp; recommendation engines</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">04 / Work</span>
+            <h2>Projects</h2>
+            <p class="section-desc">Click <strong>APP</strong> to interact with live demos · <strong>GitHub</strong> to browse source code · <strong>Notebook</strong> for detailed walkthroughs</p>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card large">
+                <div class="project-img">
+                    <img src="./projects/photo/rag_chatbot.jpg" alt="RAG-based Chatbot">
+                    <div class="project-overlay">
+                        <span class="project-tag">NLP · LLMs · RAG</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h3>RAG-based Chatbot</h3>
+                    <p>Retrieval-Augmented Generation chatbot capable of summarising PDFs, ePubs, web pages, and YouTube videos.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/arico97/RAG_summarizer" class="plink github"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://huggingface.co/spaces/arico777/RAG_pdf" class="plink app"><i class="fas fa-external-link-alt"></i> App</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./projects/photo/football_forecasting.jpg" alt="Football Forecasting">
+                    <div class="project-overlay">
+                        <span class="project-tag">ML · Sports Analytics</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h3>Football Forecasting</h3>
+                    <p>ML models predicting football match outcomes from historical data for sports analytics.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/arico97/casino" class="plink github"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./projects/photo/anomaly_detection.jpg" alt="Anomaly Detection">
+                    <div class="project-overlay">
+                        <span class="project-tag">AutoML · Anomaly Detection</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h3>Anomaly Detection</h3>
+                    <p>AutoML-based project identifying anomalies within datasets without manual intervention.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/arico97/anomaly_detection" class="plink github"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./projects/photo/obesity.jpg" alt="Overweight Classification">
+                    <div class="project-overlay">
+                        <span class="project-tag">Classification · Health</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h3>Overweight Classification</h3>
+                    <p>Predict patient overweight status using key clinical features with an interactive Streamlit app.</p>
+                    <div class="project-links">
+                        <a href="./projects/uci_ow.html" class="plink nb"><i class="fas fa-book"></i> Notebook</a>
+                        <a href="https://overwuci-e6rcalecxy5s59a8spqqv5.streamlit.app/" class="plink app"><i class="fas fa-external-link-alt"></i> App</a>
+                        <a href="https://github.com/arico97/overw_uci" class="plink github"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://youtu.be/a_OVtQLZcI8?si=lf-8d8aB-Sa2OjYa" class="plink yt"><i class="fab fa-youtube"></i> YouTube</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./projects/photo/stock-prediction.png" alt="Time Series Forecasting">
+                    <div class="project-overlay">
+                        <span class="project-tag">Time Series · LSTM</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h3>Time Series Forecasting</h3>
+                    <p>Showcase of ARIMA, SARIMA and LSTM forecasting methods with interactive AutoML trading app.</p>
+                    <div class="project-links">
+                        <a href="./projects/Time series forecasting.html" class="plink nb"><i class="fas fa-book"></i> Notebook</a>
+                        <a href="https://huggingface.co/spaces/arico777/automl_trading_forecasting" class="plink app"><i class="fas fa-external-link-alt"></i> App</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./projects/photo/news_api.png" alt="Real Time News NLP">
+                    <div class="project-overlay">
+                        <span class="project-tag">NLP · Clustering · LLMs</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h3>Real-time News NLP</h3>
+                    <p>Live news clustering using NLP and an LLM to automatically name and categorise clusters.</p>
+                    <div class="project-links">
+                        <a href="https://huggingface.co/spaces/arico777/news-api" class="plink app"><i class="fas fa-external-link-alt"></i> App</a>
+                        <a href="https://github.com/arico97/alexrico.github.io/blob/main/projects/Real_time_news_analysis_classification.ipynb" class="plink nb"><i class="fas fa-book"></i> Notebook</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./projects/photo/movie_recommender_app.PNG" alt="Movie Recommender">
+                    <div class="project-overlay">
+                        <span class="project-tag">Recommender Systems</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h3>Movie Recommender App</h3>
+                    <p>Collaborative &amp; content-based recommender system for movies, deployed on Streamlit.</p>
+                    <div class="project-links">
+                        <a href="https://appmovierecommender-anpzk4sustwafamcjipkzx.streamlit.app/" class="plink app"><i class="fas fa-external-link-alt"></i> App</a>
+                        <a href="https://github.com/arico97/streamlit_movie_recommender" class="plink github"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="./projects/Recommenders.html" class="plink nb"><i class="fas fa-book"></i> Notebook</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./projects/photo/movie-reviews.png" alt="Sentiment Analysis">
+                    <div class="project-overlay">
+                        <span class="project-tag">NLP · Sentiment</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h3>Sentiment Analysis</h3>
+                    <p>NLP sentiment analysis pipeline applied to movie reviews dataset.</p>
+                    <div class="project-links">
+                        <a href="./projects/nlp.html" class="plink nb"><i class="fas fa-book"></i> Notebook</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./projects/photo/survival-analysis.png" alt="Survival Analysis">
+                    <div class="project-overlay">
+                        <span class="project-tag">Statistics · Biostatistics</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h3>Survival Analysis</h3>
+                    <p>Simple, clear survival analysis project with Kaplan-Meier and Cox proportional hazards.</p>
+                    <div class="project-links">
+                        <a href="./projects/Survival analysis.html" class="plink nb"><i class="fas fa-book"></i> Notebook</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./projects/photo/clusters.png" alt="Clustering">
+                    <div class="project-overlay">
+                        <span class="project-tag">Unsupervised · PCA</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h3>Clustering Project</h3>
+                    <p>PCA + K-means, DBSCAN, hierarchical methods with elbow method and silhouette scoring.</p>
+                    <div class="project-links">
+                        <a href="./projects/clustering-notebook_v2.html" class="plink nb"><i class="fas fa-book"></i> Notebook</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./projects/photo/titanic.jpg" alt="Titanic">
+                    <div class="project-overlay">
+                        <span class="project-tag">Classification · EDA</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h3>Titanic Predictions</h3>
+                    <p>Data analysis and ML classification showcase using the iconic Titanic dataset.</p>
+                    <div class="project-links">
+                        <a href="./projects/Titanic1.html" class="plink nb"><i class="fas fa-book"></i> Notebook</a>
+                        <a href="https://github.com/arico97/titanic_api" class="plink github"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./projects/photo/house-prices.png" alt="House Pricing">
+                    <div class="project-overlay">
+                        <span class="project-tag">Regression · Feature Eng.</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h3>House Pricing</h3>
+                    <p>ML regression techniques applied to house pricing dataset with full feature engineering.</p>
+                    <div class="project-links">
+                        <a href="./projects/House pricing.html" class="plink nb"><i class="fas fa-book"></i> Notebook</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./projects/photo/GIS.png" alt="GIS Analysis">
+                    <div class="project-overlay">
+                        <span class="project-tag">GIS · Geospatial</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h3>GIS Analysis</h3>
+                    <p>Open-source GIS libraries in Python for geospatial analysis and mapping.</p>
+                    <div class="project-links">
+                        <a href="./projects/GIS.html" class="plink nb"><i class="fas fa-book"></i> Notebook</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./projects/photo/data_visualisation_app.PNG" alt="Data Visualisation App">
+                    <div class="project-overlay">
+                        <span class="project-tag">Streamlit · Visualisation</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <h3>Data Visualisation App</h3>
+                    <p>Interactive Streamlit data visualisation application deployed on Streamlit Cloud.</p>
+                    <div class="project-links">
+                        <a href="https://appdatavisualisation-zbxpv4y6yqnc8smmheufpy.streamlit.app/" class="plink app"><i class="fas fa-external-link-alt"></i> App</a>
+                        <a href="https://github.com/arico97/streamlit_data_visualisation" class="plink github"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">05 / Education</span>
+            <h2>Academic Background</h2>
+        </div>
+        <div class="education-grid">
+            <div class="edu-card">
+                <div class="edu-year">2020 – 2022</div>
+                <div class="edu-body">
+                    <span class="edu-badge">Master's Degree</span>
+                    <h3>Modelling for Engineering &amp; Science</h3>
+                    <h4>Autonomous University of Barcelona</h4>
+                    <ul>
+                        <li>Classical ML algorithms — Regression, Classification</li>
+                        <li>Big Data processing with Spark and SQL</li>
+                        <li>Deep Learning for Image Recognition</li>
+                        <li>Optimization and Parallel Programming</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-year">2015 – 2019</div>
+                <div class="edu-body">
+                    <span class="edu-badge">Bachelor's Degree</span>
+                    <h3>Mathematics</h3>
+                    <h4>Autonomous University of Barcelona</h4>
+                    <ul>
+                        <li>Numerical Methods, Probability &amp; Statistics</li>
+                        <li>Linear Algebra &amp; High-Dimensional Data</li>
+                        <li>AI algorithms for games (Space Invaders, Connect-4)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <div class="container">
+        <div class="section-header light">
+            <span class="section-tag">06 / Skills</span>
+            <h2>Toolkit</h2>
+        </div>
+        <div class="skills-grid">
+
+            <div class="skill-block">
+                <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                <h3>Technical Skills</h3>
+                <div class="skill-pills">
+                    <span>Python</span><span>R</span><span>Java</span><span>Bash</span><span>SQL</span><span>Docker</span><span>Kubernetes</span>
+                </div>
+                <ul>
+                    <li>Machine Learning (Neural Networks, NLP, Clustering)</li>
+                    <li>ETL, MLOps, Pipeline Optimisation</li>
+                    <li>Generative AI and LLMs</li>
+                </ul>
+            </div>
+
+            <div class="skill-block">
+                <div class="skill-icon"><i class="fas fa-cubes"></i></div>
+                <h3>ML Libraries &amp; Frameworks</h3>
+                <div class="skill-pills">
+                    <span>TensorFlow</span><span>PyTorch</span><span>Keras</span><span>scikit-learn</span><span>HuggingFace</span>
+                </div>
+                <ul>
+                    <li>Transformers, SpaCy, NLTK</li>
+                    <li>Pandas, NumPy, Seaborn, Matplotlib</li>
+                    <li>Streamlit, FastAPI, BeautifulSoup</li>
+                </ul>
+            </div>
+
+            <div class="skill-block">
+                <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                <h3>Soft Skills</h3>
+                <div class="skill-pills">
+                    <span>Problem-Solving</span><span>Storytelling</span><span>Creativity</span>
+                </div>
+                <ul>
+                    <li>Critical Thinking &amp; Abstraction</li>
+                    <li>Time Management</li>
+                    <li>Cross-functional Collaboration</li>
+                </ul>
+            </div>
+
+            <div class="skill-block cert">
+                <div class="skill-icon"><i class="fas fa-certificate"></i></div>
+                <h3>Certifications &amp; Languages</h3>
+                <div class="cert-badge">
+                    <i class="fab fa-aws"></i>
+                    <div>
+                        <strong>AWS ML Engineer Associate</strong>
+                        <span>Amazon Web Services</span>
+                    </div>
+                </div>
+                <ul>
+                    <li>🇬🇧 Advanced English</li>
+                    <li>🇪🇸 Native Spanish</li>
+                    <li>🏴󠁥󠁳󠁣󠁴󠁿 Native Catalan</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">07 / Contact</span>
+            <h2>Let's connect</h2>
+            <p class="section-desc">Open to freelance projects, collaborations, and full-time opportunities.</p>
+        </div>
+        <div class="contact-inner">
+            <div class="contact-social">
+                <a href="https://www.youtube.com/channel/UC66L8VoX-xbpcBgLt-mIUvA" class="social-pill" target="_blank">
+                    <i class="fab fa-youtube"></i><span>YouTube</span>
+                </a>
+                <a href="https://www.linkedin.com/in/alex-rico-rodr%C3%ADguez-a04075160/" class="social-pill" target="_blank">
+                    <i class="fab fa-linkedin-in"></i><span>LinkedIn</span>
+                </a>
+                <a href="https://www.instagram.com/dataandrico/" class="social-pill" target="_blank">
+                    <i class="fab fa-instagram"></i><span>Instagram</span>
+                </a>
+                <a href="https://www.tiktok.com/@data.and.rico?_t=8nGuprMybKK&_r=1" class="social-pill" target="_blank">
+                    <i class="fab fa-tiktok"></i><span>TikTok</span>
+                </a>
+                <a href="https://github.com/arico97" class="social-pill" target="_blank">
+                    <i class="fab fa-github"></i><span>GitHub</span>
+                </a>
+                <a href="https://huggingface.co/arico777" class="social-pill" target="_blank">
+                    <i class="fas fa-robot"></i><span>HuggingFace</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-inner">
+            <span class="footer-logo">AR<span>.</span></span>
+            <p>© 2024 Alex Rico Rodríguez — Data Scientist &amp; AI Engineer</p>
+            <div class="footer-lang">
+                <a href="./index.html">EN</a> / <a href="./index_español.html">ES</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+// Custom cursor
+const cursor = document.querySelector('.cursor');
+const follower = document.querySelector('.cursor-follower');
+let mouseX = 0, mouseY = 0, followerX = 0, followerY = 0;
+document.addEventListener('mousemove', e => {
+    mouseX = e.clientX; mouseY = e.clientY;
+    cursor.style.left = mouseX + 'px';
+    cursor.style.top = mouseY + 'px';
+});
+function animateFollower() {
+    followerX += (mouseX - followerX) * 0.12;
+    followerY += (mouseY - followerY) * 0.12;
+    follower.style.left = followerX + 'px';
+    follower.style.top = followerY + 'px';
+    requestAnimationFrame(animateFollower);
+}
+animateFollower();
+document.querySelectorAll('a, button, .project-card, .exp-card').forEach(el => {
+    el.addEventListener('mouseenter', () => { cursor.classList.add('hover'); follower.classList.add('hover'); });
+    el.addEventListener('mouseleave', () => { cursor.classList.remove('hover'); follower.classList.remove('hover'); });
+});
+
+// Navbar scroll
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 60);
+});
+
+// Mobile nav toggle
+const toggle = document.querySelector('.nav-toggle');
+const navLinks = document.querySelector('.nav-links');
+toggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+// Scroll reveal
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+}, { threshold: 0.12 });
+document.querySelectorAll('.exp-card, .project-card, .edu-card, .skill-block, .testimonial-card, .about-text, .about-tags').forEach(el => {
+    el.classList.add('reveal');
+    observer.observe(el);
+});
+
+// Active nav link
+const sections = document.querySelectorAll('section[id]');
+window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => { if (window.scrollY >= s.offsetTop - 100) current = s.id; });
+    document.querySelectorAll('.nav-links a').forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+    });
+});
+</script>
 </body>
 </html>
